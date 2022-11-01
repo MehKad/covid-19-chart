@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #39ac39;
+    height: 80px;
+    position: relative;
+    
+}
+
+#covid{
+    position: absolute;
+    text-align: center;
+    left: 42%;
+    font-weight:1000;
+    font-size: 200%;
+
+}
+#container{
+    height: 515px;
+    width: 100%;
+    position: relative;
+    
+}
+#side{
+    height: 90%;
+    width: 16%;
+    position: absolute;
+    overflow: auto;
+    left: 40px;
+    bottom: 6%;
+    border: 0.1px solid rgb(180, 167, 167);
+    cursor: pointer;
+}
+#content{
+    height: 90%;
+    width: 74%;
+    position: absolute;
+    right: 16px;
+    bottom: 8%;
+}
+
+#contries{
+    font-family: sans-serif;
+
+    background-color: rgb(31, 231, 24);
+    position: relative;
+    border-radius: 3px;
+    display: flex;
+    border-bottom: 2px solid white;
+    font-size: large;
+    justify-content: space-around;
+    width: 90%;
+    left: 4%;
+    
+}
+#contries:hover{
+    background-color: rgb(185, 59, 59);
+    
+}
